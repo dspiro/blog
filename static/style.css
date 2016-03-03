@@ -1,0 +1,66 @@
+body {
+	background: #171717 url(sprites/bg.jpg);
+	font-family: "Trebuchet MS";
+	color: #e8e8e8;
+	margin: 0;
+	padding: 0;
+    margin-top: 40px;
+    /*I've merged html and body together, cleaner imo */
+}
+
+div#navbar {
+width: 610px;
+height: 25px;
+border-radius: 5px;
+margin-top: 20px;
+margin-bottom: 5px;
+font-weight: bold;
+}
+
+div#navbar li {
+list-style: none;
+display: inline;
+margin-left: 8px;
+}
+
+div#navbar a {
+color: #fff;
+text-decoration: none;
+padding-left: 6px;
+padding-right: 6px;
+border: 1px solid #fff;
+border-bottom: 4px solid #fff;
+border-radius: 10px;
+background-color: #000;
+}
+
+div#navbar a:hover {
+border: 1px solid #2965c9;
+border-bottom: 4px solid #2965c9;
+color: #2965c9;
+}
+
+div#content {
+border: 1px solid #FFFFFF;
+border-bottom: 4px solid #FFFFFF;
+height: auto;
+width: 600px;
+border-radius: 10px;
+background-image: url('sprites/isaacnewtonbackground.jpg');
+padding: 5px;
+margin-top: 10px;
+background-color: #000;
+}
+
+/* Moved this down as it's sorted and now irrelevant */
+
+::-moz-selection {
+	color: #fff;
+	background: #f43972;
+}
+
+::selection {
+	color: #fff;
+	background: #f43972;
+}
+
